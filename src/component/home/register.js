@@ -6,7 +6,7 @@ return (
                     {/*Đăng ký vay*/}
                     <div className="col-sm-4">
                         <div className="row">
-                            <form role="form" action="/dang-ky-vay" method="POST" encType="multipart/form-data">
+                            <form >
                                 <input type="hidden" name="_token" defaultValue="BV9OuGm37VY3bFxYDNUSZrdWGlFyWsBXjTE1B4No" />
                                 <h3 className="container contact-title">Đăng ký vay</h3>
                                 <div className="form-group col-sm-12 col-xs-12">
