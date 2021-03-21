@@ -2,7 +2,6 @@
   "name": "vay247",
   "version": "0.1.0",
   "homepage": "https://ungthanhlong.github.io/vay/",
-
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -21,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

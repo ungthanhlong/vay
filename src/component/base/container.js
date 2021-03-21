@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -14,7 +15,7 @@ function Container() {
             <div className="text-center about-content">
               <span>Liên hệ tư vấn làm hồ sơ miễn phí 24/7</span>
               <div className="col-sm-12 view-more">
-                <a href="#" className="btn-view-more">Đăng ký vay</a>
+                <Link to="#" className="btn-view-more">Đăng ký vay</Link>
               </div>
             </div>
           </div>

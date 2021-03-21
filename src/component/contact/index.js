@@ -32,8 +32,8 @@ function Contact(){
                   <textarea className="form-control" rows={5} id="comment" name="txt_content" placeholder="Nội dung" defaultValue={""} />
                 </div>
                 <div className="form-group box_captcha col-sm-6 col-xs-12">
-                  <img className="img-responsive" />
-                  <input type="text" className="form-control" name="txt_captcha" maxLength={10} size={32} placeholder="Nhập mã xác nhận (*)" />
+
+                  
                 </div>
                 <div className="form-group box_captcha col-sm-12 col-xs-12">
                   <button type="submit" className="btn btn-default">Gửi liên hệ</button>

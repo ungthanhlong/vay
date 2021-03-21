@@ -10,7 +10,7 @@ function Header() {
         <div className="container-tv">
           <div className="top-contact col-sm-12">
             <div className="row">
-              <a href="#"><i className="fa fa-phone" aria-hidden="true" /> 0931911348 Ms.Thơ</a>
+              <Link to="#"><i className="fa fa-phone" aria-hidden="true" /> 0931911348 Ms.Thơ</Link>
             </div>
           </div>
         </div>
@@ -18,7 +18,7 @@ function Header() {
       <div className="clearfix header-menu ">
         <div className="container-tv mmenu-mobile">
           <div className="logo-header">
-            <figure><a href="#"><img src="%PUBLIC_URL%/images/logo.png" alt="" className="img-responsive" /></a></figure>
+            <figure><Link to="#"><img src="%PUBLIC_URL%/images/logo.png" alt="" className="img-responsive" /></Link></figure>
           </div>
           {/* mmenu header */}
           <div className="open-menu hidden-lg hidden-md hidden-sm">
@@ -30,9 +30,9 @@ function Header() {
             <ul className="clearfix">
             <li className="underline-from-center"><Link className="a-hover" to="/">Trang chủ</Link></li>
               <li className="underline-from-center">
-                <a href="#" className="a-hover" style={{ cursor: 'pointer' }}>Đối tượng vay</a>
+                <Link to="#" className="a-hover" style={{ cursor: 'pointer' }}>Đối tượng vay</Link>
                 <ul className="sub-menu">
-                  <li className="sub-menu-list"><a href="#" style={{ cursor: 'pointer' }}>Cá nhân</a>
+                  <li className="sub-menu-list"><Link to="#" style={{ cursor: 'pointer' }}>Cá nhân</Link>
                     <ul className="m-sub-menu">
                       <li className="sub-menu-list"><Link to="/doi-tuong-vay/ca-nhan/vay-theo-luong">Vay theo lương</Link></li>
                       <li className="sub-menu-list"><Link to="/doi-tuong-vay/ca-nhan/vay-theo-hoa-don-tien-dien">Vay theo hóa đơn tiền điện</Link></li>
@@ -43,12 +43,12 @@ function Header() {
                       <li className="sub-menu-list"><Link to="/doi-tuong-vay/ca-nhan/vay-theo-sim-viettel">Vay theo sim Viettel</Link></li>
                     </ul>
                   </li>
-                  <li className="sub-menu-list"><a href="#" style={{ cursor: 'pointer' }}>Hộ kinh doanh</a>
+                  <li className="sub-menu-list"><Link to="#" style={{ cursor: 'pointer' }}>Hộ kinh doanh</Link>
                   </li>
                 </ul>
               </li>
               <li className="underline-from-center">
-                <a href="#" className="a-hover" style={{ cursor: 'pointer' }}>Hình thức vay</a>
+                <Link to="#" className="a-hover" style={{ cursor: 'pointer' }}>Hình thức vay</Link>
                 <ul className="sub-menu">
                 </ul>
               </li>
